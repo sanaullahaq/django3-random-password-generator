@@ -27,11 +27,14 @@
 
         <input type="checkbox" name="special"> Special Character
         <br>
+        Special Letter <input type="text" maxlength="1" name="specialChar" placeholder="(optional)">
+        <input type="checkbox" name="specialCharatEnd"> At The End
+        <br><br>
 
         <input type="submit" value="Generate Password" class="btn btn-primary">
 
     </form>
 
 
-    <a href=" {% url 'about' %}"> About </a>
+    <a href=" {% url 'about' %}" class="btn btn-primary"> About </a>
 </div>
