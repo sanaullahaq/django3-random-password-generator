@@ -1,0 +1,1 @@
+web: gunicorn generate_passowrd.wsgi --log-file -
